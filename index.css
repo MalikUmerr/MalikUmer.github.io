@@ -1,0 +1,183 @@
+.Bar{
+    
+    color: #792904;
+    overflow: hidden;
+}
+.Bar a {
+    float: left;
+    display: block;
+    color: rgb(255, 251, 251);
+    background-color: rgb(77, 165, 51);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .Bar a:hover {
+    background-color: rgb(190, 148, 68);
+    color: rgb(255, 243, 243);
+  }
+  .Bar a.active {
+    background-color: #008307;
+    color: white;
+  }
+
+  .search{
+    height: 40px;
+    float: right;
+    border-radius: 40%;
+  }
+
+  .Bar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  @media screen and (max-width: 600px) {
+    .Bar a, .Bar input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+ 
+p {
+    color: rgb(245, 255, 245);
+    text-transform: initial;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.special{
+    color: rgb(252, 136, 136);
+}
+
+.extra{
+    background-color: rgba(44, 180, 135, 0.363);
+    font-size: 17px;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+h1{
+    font-size: 450%;
+    font-family: moon dance;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(34, 17, 17);
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+
+ul{
+    color: antiquewhite;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.background{
+    background-image: url(bgsmall.jpg);
+    background-size: 1000px;
+    height: 5000px;
+    width: 1000px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    
+}
+a:hover{
+    color: rgb(212, 245, 147);
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(166, 226, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+a img{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 90px;
+}
+a b{
+    font-size: 40px;
+}
+.icon{
+    padding: 5px;
+    border: none;
+    float: right;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.find{
+    font-size: 13px;
+    float: left;
+ 
+}
+h2{
+    font-size: 200%;
+    color: rgba(227, 247, 236, 0.973);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: seagreen;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 25px;
+    color: #b8c7c0;
+}
+h3 u{
+    color: #cad6d0;
+}
+
+h6{
+    color: beige;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a,.b,.c,.d,.e{
+    
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
